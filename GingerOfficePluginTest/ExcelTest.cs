@@ -31,13 +31,7 @@ namespace StandAloneActionsTest
     {        
 
         static string EXCEL_FILE_NAME = TestResources.GetTestResourcesFile("test1.xlsx");
-
-
-        [AssemblyInitialize]
-        public static void AssemblyInitialize(TestContext context)
-        {
-            TestResources.Assembly = Assembly.GetExecutingAssembly();
-        }
+      
 
         [ClassInitialize]
         public static void ClassInit(TestContext context)
